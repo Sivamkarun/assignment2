@@ -1,0 +1,70 @@
+body{
+	margin:0;
+	background-color: #1e242b;
+}
+
+.wrap{
+	width: 1200px;
+	margin: auto;
+}
+
+.leftcontainer{
+	width:625px;
+}
+
+/*.latestnews{
+	display: grid;
+	grid-template-columns: repeat(6, 9%);
+	grid-template-rows: repeat(4, 200px);
+	grid-column-gap: 5px;
+	grid-row-gap: 5px;
+	margin: auto;
+}*/
+
+.news_3column {
+	display: grid;
+	grid-template-columns: repeat(6, 100px);
+	grid-template-rows: repeat(1, 200px);
+	grid-column-gap: 5px;
+	grid-row-gap: 5px;
+	margin: 10px 0px 5px 0px;
+
+}
+	.news_item{
+		grid-column: span 3;
+		grid-row: span 1;
+		background-color: orange;
+	}
+
+.news_2column{
+	display: grid;
+	margin: 5px 0px 5px 0px;
+	grid-template-columns: repeat(6, 100px);
+	grid-template-rows: repeat(2, 200px);
+	grid-column-gap: 5px;
+	grid-row-gap: 5px;
+	
+}
+	.news_item2{
+		grid-column: span 2;
+		grid-row: span 1;
+		color: white;
+		background-color: blue;
+	}
+
+.gameupdates{
+	display: grid;
+	margin: 5px 0px 5px 0px;
+	grid-template-columns: repeat(6, 100px);
+	grid-template-rows: repeat(1, 200px);
+	grid-column-gap: 5px;
+	grid-row-gap: 5px;
+
+}
+
+	.update{
+		grid-column: span 2;
+		grid-row: span 1;
+		color: white;
+		background-color: blue;
+	}
